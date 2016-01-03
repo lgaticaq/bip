@@ -1,0 +1,10 @@
+[
+  {
+    "estado": 1,
+    "mensaje": "Esta tarjeta no se puede cargar"
+  },
+  {
+    "salida": false,
+    "tarjeta": "11111111"
+  }
+]
