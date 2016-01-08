@@ -11,11 +11,15 @@ const getBalance = (number, cb) => {
     json: true
   };
   rp(options).then((results) => {
-    const data = results[1];
-    if (!data.salida) deferred.reject(new Error('Not found'));
+    if (results.length === 0) deferred.reject(new Error('Not found'));
+    const balance = parseInt(results[1].saldo || 0, 10);
+    const date = results[1].fecha ? moment(results[1].fecha, 'DD\/MM\/YYYY HH:mm').toDate() : null;
     deferred.resolve({
-      balance: parseInt(data.saldo, 10),
-      date: moment(data.fecha, 'DD\/MM\/YYYY HH:mm').toDate()
+      number: parseInt(number, 10),
+      balance: balance,
+      date: date,
+      message: results[0].mensaje,
+      valid: results[1].salida
     });
   }).catch((err) => deferred.reject(err));
   deferred.promise.nodeify(cb);

@@ -39,7 +39,10 @@ Result:
 
 ```js
 {
+  number: XXXXX, // a number
   balance: XXXXX, // a number
   date: XXXXX, // a date
+  message: XXXXX, // a string
+  valid: XXXXX // a boolean
 }
 ```

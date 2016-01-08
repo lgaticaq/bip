@@ -25,8 +25,11 @@ describe('bip', () => {
       lib(number, (err, data) => {
         expect(err).to.be.null;
         expect(data).to.be.a('object');
+        expect(data.number).to.be.a('number');
         expect(data.balance).to.be.a('number');
         expect(data.date).to.be.a('date');
+        expect(data.message).to.be.a('string');
+        expect(data.valid).to.be.a('boolean');
         done();
       });
     });
@@ -35,8 +38,11 @@ describe('bip', () => {
     it('should return a balance data (promise)', (done) => {
       lib(number).then((data) => {
         expect(data).to.be.a('object');
+        expect(data.number).to.be.a('number');
         expect(data.balance).to.be.a('number');
         expect(data.date).to.be.a('date');
+        expect(data.message).to.be.a('string');
+        expect(data.valid).to.be.a('boolean');
         done();
       }).fail((err) => {
         expect(err).to.be.null;
@@ -58,18 +64,27 @@ describe('bip', () => {
 
     it('should return a empty data (callback)', (done) => {
       lib(number, (err, data) => {
-        expect(err).to.eql(new Error('Not found'));
-        expect(data).to.be.undefined;
+        expect(err).to.be.null;
+        expect(data).to.be.a('object');
+        expect(data.number).to.be.a('number');
+        expect(data.balance).to.eql(0);
+        expect(data.date).to.eql(null);
+        expect(data.message).to.be.a('string');
+        expect(data.valid).to.eql(false);
         done();
       });
     });
 
     it('should return a empty data (promise)', (done) => {
       lib(number).then((data) => {
-        expect(data).to.be.undefined;
+        expect(data.number).to.be.a('number');
+        expect(data.balance).to.eql(0);
+        expect(data.date).to.eql(null);
+        expect(data.message).to.be.a('string');
+        expect(data.valid).to.eql(false);
         done();
       }).fail((err) => {
-        expect(err).to.eql(new Error('Not found'));
+        expect(err).to.be.null;
         done();
       });
     });
