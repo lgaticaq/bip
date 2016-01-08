@@ -26,9 +26,9 @@ const getBalance = (number, cb) => {
   } else {
     deferred.resolve({
       number: number,
-      balance: '$ 0',
+      balance: 0,
       date: null,
-      message: 'Número de tarjeta invalido. Deben ser 8 números',
+      message: 'Número de tarjeta invalido. Deben ser 8 dígitos',
       valid: false
     });
   }
