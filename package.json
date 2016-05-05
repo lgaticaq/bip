@@ -27,44 +27,41 @@
   },
   "homepage": "https://github.com/lgaticaq/bip#readme",
   "dependencies": {
-    "moment": "^2.11.0",
-    "request-promise": "^1.0.2"
+    "moment": "^2.13.0",
+    "request-promise": "^3.0.0"
   },
   "devDependencies": {
-    "chai": "^3.4.1",
-    "eslint": "^1.10.3",
-    "mocha": "^2.3.4",
-    "nock": "^3.6.0",
-    "rimraf": "^2.5.0"
+    "chai": "^3.5.0",
+    "eslint": "^2.9.0",
+    "mocha": "^2.4.5",
+    "nock": "^8.0.0",
+    "rimraf": "^2.5.2"
   },
   "eslintConfig": {
-    "rules": {
-      "indent": [
-        2,
-        2
-      ],
-      "quotes": [
-        2,
-        "single"
-      ],
-      "linebreak-style": [
-        2,
-        "unix"
-      ],
-      "semi": [
-        2,
-        "always"
-      ]
-    },
-    "ecmaFeatures": {
-      "modules": true
-    },
     "env": {
       "es6": true,
       "node": true,
       "mocha": true
     },
-    "extends": "eslint:recommended"
+    "extends": "eslint:recommended",
+    "rules": {
+      "indent": [
+        2,
+        2
+      ],
+      "linebreak-style": [
+        2,
+        "unix"
+      ],
+      "quotes": [
+        2,
+        "single"
+      ],
+      "semi": [
+        2,
+        "always"
+      ]
+    }
   },
   "tonicExampleFilename": "example.js"
 }
