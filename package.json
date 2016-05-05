@@ -4,7 +4,7 @@
   "description": "Get balance of bip card (Chile)",
   "main": "src",
   "scripts": {
-    "lint": "eslint src",
+    "pretest": "eslint src",
     "test": "istanbul cover _mocha",
     "coveralls": "coveralls < coverage/lcov.info"
   },
