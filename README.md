@@ -27,9 +27,9 @@ const number = 11111111;
 bip(number)
   .then(console.log)
   .catch(console.error);
+```
 
 Result:
-
 ```js
 {
   number: XXXXX, // a number
