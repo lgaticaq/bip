@@ -23,17 +23,9 @@ const bip = require('bip');
 
 const number = 11111111;
 
-// Promise
 bip(number)
-  .then(data => console.log(data))
-  .fail(err => console.error(err));
-
-// Callback
-bip(number, (err, data) => {
-  if (err) return console.error(err);
-  console.log(data);
-});
-```
+  .then(console.log)
+  .catch(console.error);
 
 Result:
 
