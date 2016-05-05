@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint src",
     "clean": "rimraf lib",
-    "test": "mocha --compilers js:babel-core/register"
+    "test": "mocha"
   },
   "engines": {
     "node": ">=4"
