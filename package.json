@@ -9,7 +9,7 @@
     "test": "mocha --compilers js:babel-core/register"
   },
   "engines": {
-    "node": ">=0.12"
+    "node": ">=4"
   },
   "repository": {
     "type": "git",
