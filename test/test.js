@@ -1,9 +1,9 @@
 'use strict';
 
-import {expect} from 'chai';
-import nock from 'nock';
+const {expect} = require('chai');
+const nock = require('nock');
 
-import lib from '../lib';
+const lib = require('../src');
 
 describe('bip', () => {
 
@@ -30,31 +30,16 @@ describe('bip', () => {
         ]);
     });
 
-    it('should return a balance data (callback)', (done) => {
-      lib(number, (err, data) => {
-        expect(err).to.be.null;
-        expect(data).to.be.a('object');
+    it('should return a balance data', done => {
+      lib(number).then(data => {
         expect(data.number).to.eql(number);
-        expect(data.balance).to.be.a('number');
-        expect(data.date).to.be.a('date');
-        expect(data.message).to.be.a('string');
-        expect(data.valid).to.be.a('boolean');
+        expect(data.balance).to.eql(1180);
+        expect(data.date).to.eql(new Date('2016-01-02T23:59:00.000Z'));
+        expect(data.message).to.eql('Tarjeta Valida');
+        expect(data.valid).to.be.true;
         done();
-      });
-    });
-
-
-    it('should return a balance data (promise)', (done) => {
-      lib(number).then((data) => {
-        expect(data).to.be.a('object');
-        expect(data.number).to.eql(number);
-        expect(data.balance).to.be.a('number');
-        expect(data.date).to.be.a('date');
-        expect(data.message).to.be.a('string');
-        expect(data.valid).to.be.a('boolean');
-        done();
-      }).fail((err) => {
-        expect(err).to.be.null;
+      }).catch(err => {
+        expect(err).to.be.undefined;
         done();
       });
     });
@@ -80,29 +65,9 @@ describe('bip', () => {
         ]);
     });
 
-    it('should return a empty data (callback)', (done) => {
-      lib(number, (err, data) => {
-        expect(err).to.be.null;
-        expect(data).to.be.a('object');
-        expect(data.number).to.eql(number);
-        expect(data.balance).to.eql(0);
-        expect(data.date).to.eql(null);
-        expect(data.message).to.be.a('string');
-        expect(data.valid).to.eql(false);
-        done();
-      });
-    });
-
-    it('should return a empty data (promise)', (done) => {
-      lib(number).then((data) => {
-        expect(data.number).to.eql(number);
-        expect(data.balance).to.eql(0);
-        expect(data.date).to.eql(null);
-        expect(data.message).to.be.a('string');
-        expect(data.valid).to.eql(false);
-        done();
-      }).fail((err) => {
-        expect(err).to.be.null;
+    it('should return a empty data', done => {
+      lib(number).catch((err) => {
+        expect(err.message).to.eql('Esta tarjeta no se puede cargar');
         done();
       });
     });
