@@ -34,7 +34,7 @@ describe('bip', () => {
       lib(number).then(data => {
         expect(data.number).to.eql(number);
         expect(data.balance).to.eql(1180);
-        expect(data.date).to.eql(new Date('2016-01-02T23:59:00.000Z'));
+        expect(data.date).to.be.a('date');
         expect(data.message).to.eql('Tarjeta Valida');
         expect(data.valid).to.be.true;
         done();
