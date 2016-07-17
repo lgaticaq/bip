@@ -28,7 +28,7 @@
   "homepage": "https://github.com/lgaticaq/bip#readme",
   "dependencies": {
     "moment": "^2.13.0",
-    "request-promise": "^3.0.0"
+    "request-promise": "^4.0.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
