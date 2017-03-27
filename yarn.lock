@@ -235,9 +235,9 @@ code-point-at@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
 
-codeclimate-test-reporter:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/codeclimate-test-reporter/-/codeclimate-test-reporter-0.4.0.tgz#b5ce10aeed7898016a1b2411acdfaba3c67c2c28"
+codeclimate-test-reporter@^0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/codeclimate-test-reporter/-/codeclimate-test-reporter-0.4.1.tgz#9f20f6d82d36aab99d20abe4f6c7372f4c6d1915"
   dependencies:
     async "~1.5.2"
     commander "2.9.0"
