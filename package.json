@@ -32,7 +32,7 @@
   "homepage": "https://github.com/lgaticaq/bip#readme",
   "dependencies": {},
   "devDependencies": {
-    "chai": "^3.5.0",
+    "chai": "^4.0.0",
     "codeclimate-test-reporter": "^0.4.1",
     "coveralls": "^2.13.0",
     "eslint": "^3.19.0",
