@@ -1,3 +1,31 @@
+#### 2.0.2 (2017-6-19)
+
+##### Chores
+
+* **package:**
+  * update dependencies ([4c2b2d88](https://github.com/lgaticaq/bip/commit/4c2b2d88cddc42f15138f6aa68efc05f9c087749))
+  * update eslint to version 4.0.0 ([13a7e85e](https://github.com/lgaticaq/bip/commit/13a7e85e134f833b698b37bfa0fc293f2b38efa6))
+  * update codeclimate-test-reporter to version 0.5.0 ([b59c8160](https://github.com/lgaticaq/bip/commit/b59c81609f5c977b7009ca84167ee944b6e61ca4))
+  * update chai to version 4.0.0 ([752e0607](https://github.com/lgaticaq/bip/commit/752e0607ae3a78cca4283abd22a110e3f6042f37))
+  * Upgrade coveralls, eslint and nock ([007aa61e](https://github.com/lgaticaq/bip/commit/007aa61e366b46f5403dcc153c5cc2f2b2a66087))
+  * Upgrade nock to version 9.0.9 ([6e355ade](https://github.com/lgaticaq/bip/commit/6e355ade6e7045f1c3135c6fd5984f2fd6e355f3))
+  * Upgrade eslint to version 3.18.0 ([0e70bd96](https://github.com/lgaticaq/bip/commit/0e70bd96b3c56b331253a2718fdc9c354f101372))
+  * Upgrade coveralls to version 2.12.0 ([37dbb8b9](https://github.com/lgaticaq/bip/commit/37dbb8b996b85325d281b94b837b885fa1032381))
+  * Upgrade codeclimate-test-reporter to version 0.4.1 ([e8461e86](https://github.com/lgaticaq/bip/commit/e8461e86a310ea355298315a8d758f0e9668bfab))
+  * update nock to version 9.0.9 ([f54ff103](https://github.com/lgaticaq/bip/commit/f54ff103c137787b8e0368265d409d1f67316bd2))
+  * Update eslint to v3.14.1 ([7f22cb9b](https://github.com/lgaticaq/bip/commit/7f22cb9b1f3a77de42f6a5b52c8bba23beeafa21))
+  * Update dependencies ([3a545427](https://github.com/lgaticaq/bip/commit/3a5454277ccffb4f1cc9302d7a6ed1d59ca36bd4))
+* **travis:** Add cache yarn ([528079bb](https://github.com/lgaticaq/bip/commit/528079bb75e62483f08af100ab2289bc0d8add8b))
+* **npm:** Update ignore ([baad42e8](https://github.com/lgaticaq/bip/commit/baad42e8148fad2e24382391819a592c80afd286))
+
+##### Documentation Changes
+
+* **LICENSE:** Update year ([11358152](https://github.com/lgaticaq/bip/commit/113581520947c6bde4d9312449c6d4244dac2bc0))
+
+##### Bug Fixes
+
+* **linter:** Fix Arrow function should not return assignment ([0b5ce9a4](https://github.com/lgaticaq/bip/commit/0b5ce9a441ad78d3460f8864321f66d79d040e14))
+
 #### 2.0.1 (2016-11-27)
 
 ##### Chores
