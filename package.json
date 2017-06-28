@@ -46,7 +46,7 @@
     "lint-staged": "^4.0.0",
     "mocha": "^3.4.2",
     "nock": "^9.0.13",
-    "prettier-standard": "^5.1.0"
+    "prettier-standard": "^6.0.0"
   },
   "eslintConfig": {
     "extends": "standard",
