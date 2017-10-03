@@ -44,7 +44,7 @@
     "husky": "0.14.3",
     "istanbul": "0.4.5",
     "lint-staged": "4.2.3",
-    "mocha": "3.5.3",
+    "mocha": "4.0.0",
     "nock": "9.0.22",
     "prettier-standard": "7.0.1"
   },
