@@ -45,7 +45,7 @@
     "istanbul": "0.4.5",
     "lint-staged": "4.3.0",
     "mocha": "4.0.1",
-    "nock": "9.0.24",
+    "nock": "9.0.25",
     "prettier-standard": "7.0.3"
   },
   "eslintConfig": {
