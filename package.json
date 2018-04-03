@@ -14,7 +14,7 @@
     "release:patch": "changelog -p && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version patch && git push origin && git push origin --tags && npm publish"
   },
   "engines": {
-    "node": ">=6"
+    "node": ">=8"
   },
   "repository": {
     "type": "git",
@@ -31,7 +31,9 @@
     "url": "https://github.com/lgaticaq/bip/issues"
   },
   "homepage": "https://github.com/lgaticaq/bip#readme",
-  "dependencies": {},
+  "dependencies": {
+    "cheerio": "1.0.0-rc.2"
+  },
   "devDependencies": {
     "chai": "4.1.2",
     "eslint": "4.19.1",
@@ -42,7 +44,7 @@
     "eslint-plugin-standard": "3.0.1",
     "generate-changelog": "1.7.1",
     "husky": "0.14.3",
-    "istanbul": "0.4.5",
+    "istanbul": "1.1.0-alpha.1",
     "lint-staged": "7.0.2",
     "mocha": "5.0.5",
     "nock": "9.2.3",
@@ -50,20 +52,16 @@
   },
   "eslintConfig": {
     "extends": "standard",
-    "parserOptions": {
-      "ecmaVersion": 2017
-    },
-    "env": {
-      "node": true,
-      "mocha": true,
-      "es6": true
-    },
     "rules": {
       "no-console": [
         "error"
       ]
     }
   },
+  "eslintIgnore": [
+    "example.js",
+    "coverage"
+  ],
   "lint-staged": {
     "src/**/*.js": [
       "eslint --fix",
@@ -74,6 +72,12 @@
       "eslint --fix",
       "prettier-standard",
       "git add"
+    ]
+  },
+  "renovate": {
+    "automerge": "minor",
+    "extends": [
+      ":library"
     ]
   },
   "tonicExampleFilename": "example.js"
