@@ -8,3 +8,4 @@ test
 .nvmrc
 .travis.yml
 CHANGELOG.md
+.vscode
