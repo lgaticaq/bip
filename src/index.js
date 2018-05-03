@@ -122,7 +122,12 @@ const getBalance = (agent, number, sessionId) => {
               message,
               valid,
               balance: parseInt(balance.replace(/\D/g, ''), 10),
-              date: new Date(date)
+              date: new Date(
+                date.replace(
+                  /^(\d{2})\/(\d{2})\/(\d{4}) (\d{2}):(\d{2})$/,
+                  '$3-$2-$1T$4:$5:00-03:00'
+                )
+              )
             })
           } catch (err) {
             reject(err)
