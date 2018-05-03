@@ -1,3 +1,24 @@
+#### 3.0.1 (2018-05-03)
+
+##### Chores
+
+* **package:**  update package-lock.json ([51590c89](https://github.com/lgaticaq/bip/commit/51590c8938ccfbe575c91ff143b227e134f571d7))
+* **deps:**
+  *  update dependency lint-staged to v7.0.5 ([769ba105](https://github.com/lgaticaq/bip/commit/769ba10525ffa4ebec333b8d08f149354fbdcc36))
+  *  update dependency eslint-plugin-standard to v3.1.0 ([8be51392](https://github.com/lgaticaq/bip/commit/8be51392c31a45296584c0825cc4802585602e6a))
+  *  update dependency mocha to v5.1.1 ([bbb0b95c](https://github.com/lgaticaq/bip/commit/bbb0b95cf955d02e5ff24f628d220ffe94c36e8f))
+  *  update dependency mocha to v5.1.0 ([3f4745f5](https://github.com/lgaticaq/bip/commit/3f4745f5da745d9c6c2890640c5c088d71e47eb1))
+  *  update dependency eslint-plugin-import to v2.11.0 ([9113881d](https://github.com/lgaticaq/bip/commit/9113881da9e859546e7680ef70e73e12c1cf43de))
+  *  update dependency nock to v9.2.5 ([af2c8f1d](https://github.com/lgaticaq/bip/commit/af2c8f1da0def6bbc54618e09aada5f4a01d3052))
+  *  update dependency nock to v9.2.4 ([5081711e](https://github.com/lgaticaq/bip/commit/5081711e9cb3bdd99395ce540d7a383f4174b764))
+  *  update dependency prettier-standard to v8.0.1 ([501d000f](https://github.com/lgaticaq/bip/commit/501d000fcffaa2ba2e860f35c61f19c48a7582d7))
+  *  update dependency lint-staged to v7.0.4 ([12b9d515](https://github.com/lgaticaq/bip/commit/12b9d5155602f6b1f4aa6579864d53b6d87eb317))
+  *  update dependency lint-staged to v7.0.3 ([b129da67](https://github.com/lgaticaq/bip/commit/b129da67eb314da912429177e2fd8a57456cfc2b))
+
+##### Bug Fixes
+
+* **parser:**  fix parse date ([b7b01357](https://github.com/lgaticaq/bip/commit/b7b0135716651e8abd70b977cd77012bef1a2c4f))
+
 ## 3.0.0 (2018-04-03)
 
 ##### Chores
