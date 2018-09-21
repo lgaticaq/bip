@@ -1,3 +1,42 @@
+#### 3.0.2 (2018-09-21)
+
+##### Chores
+
+* **deps:**
+  *  update dependency lint-staged to v7.3.0 ([d54bc2eb](https://github.com/lgaticaq/bip/commit/d54bc2eb6124f4dcca0d165094971b03c38b59ed))
+  *  update dependency eslint to v5.6.0 ([13dbb772](https://github.com/lgaticaq/bip/commit/13dbb772ccd6e1c6c68787358a922ef355c645a6))
+  *  update dependency eslint to v5 ([99dba2f4](https://github.com/lgaticaq/bip/commit/99dba2f48168fce355b063f9f3ee13318256058f))
+  *  update dependency eslint-plugin-standard to v4 ([5e48f2fa](https://github.com/lgaticaq/bip/commit/5e48f2fa810b3db79251e634c80ef50af463467b))
+  *  update dependency nock to v9.6.1 ([bd39f6d5](https://github.com/lgaticaq/bip/commit/bd39f6d5a8970e9f617eaa824bd67150242b3418))
+  *  update dependency eslint-plugin-node to v7 ([fea0d556](https://github.com/lgaticaq/bip/commit/fea0d556f2ecdd0321b45ab238b85f129290fd75))
+  *  update dependency eslint-plugin-import to v2.14.0 ([7f1b6963](https://github.com/lgaticaq/bip/commit/7f1b69636b4b8e0219a76b69c1877c6d8c4278e8))
+  *  update dependency lint-staged to v7.2.2 ([f5423fab](https://github.com/lgaticaq/bip/commit/f5423fab1c5b2ce5f8e868ae5758797765b7f5a8))
+  *  update dependency nock to v9.6.0 ([7536bed0](https://github.com/lgaticaq/bip/commit/7536bed02baed009382eec7472ecfbbde7f93a43))
+  *  update dependency nock to v9.5.0 ([9bbc115f](https://github.com/lgaticaq/bip/commit/9bbc115f337bf470befc71b07ccd56395e39800c))
+  *  update dependency nock to v9.4.4 ([a9419615](https://github.com/lgaticaq/bip/commit/a9419615e3052110dc9ab089ac5c57342363a021))
+  *  update dependency nock to v9.4.3 ([8c692091](https://github.com/lgaticaq/bip/commit/8c692091cff875e3c4bb9fd982ab88c9a074f260))
+  *  update dependency nock to v9.4.2 ([b239cf02](https://github.com/lgaticaq/bip/commit/b239cf02597b2f68febbb513864589ea074a1653))
+  *  update dependency nock to v9.4.1 ([167951a5](https://github.com/lgaticaq/bip/commit/167951a5231e569afecc161a0f2533f7a30713ed))
+  *  update dependency nock to v9.4.0 ([0f62c88d](https://github.com/lgaticaq/bip/commit/0f62c88d506242902805ba30eac6bee1b0a35e74))
+  *  update dependency eslint-plugin-import to v2.13.0 ([edc89404](https://github.com/lgaticaq/bip/commit/edc894048a8dc89199de750837de55c089d31e10))
+  *  update dependency nock to v9.3.3 ([5d42db4a](https://github.com/lgaticaq/bip/commit/5d42db4a14ba98e96762b1192acff8645b25770c))
+  *  update dependency lint-staged to v7.2.0 ([db730297](https://github.com/lgaticaq/bip/commit/db7302971878b704ee1fe6a2fa05a144f7d93342))
+  *  update dependency nock to v9.3.2 ([f43d8353](https://github.com/lgaticaq/bip/commit/f43d835357372ec88c6cb6691058b9a6294b63e9))
+  *  update dependency nock to v9.3.1 ([04e29acd](https://github.com/lgaticaq/bip/commit/04e29acdc5333fe601fadddeeb524607d073edf6))
+  *  update dependency lint-staged to v7.1.3 ([ddba12ff](https://github.com/lgaticaq/bip/commit/ddba12ff7a605cf03e6e20f8d044233f7b5ea6a0))
+  *  update dependency nock to v9.3.0 ([ccd7ac75](https://github.com/lgaticaq/bip/commit/ccd7ac75acd71bdef0e1162cf67815c28ecb00bd))
+  *  update dependency eslint-plugin-promise to v3.8.0 ([bb3591ad](https://github.com/lgaticaq/bip/commit/bb3591ad7fef7b1118e5ab5292a528133e4eb352))
+  *  update dependency lint-staged to v7.1.2 ([183a9549](https://github.com/lgaticaq/bip/commit/183a9549657f618737fa4c12445c38d49b513f29))
+  *  update dependency mocha to v5.2.0 ([a70e7987](https://github.com/lgaticaq/bip/commit/a70e79874481cdbf964b5e49b355d449b3623cba))
+  *  update dependency lint-staged to v7.1.1 ([177aa1df](https://github.com/lgaticaq/bip/commit/177aa1dfcad2f8f83f48a3889715cedfa0279277))
+  *  update dependency eslint-plugin-import to v2.12.0 ([fdacef45](https://github.com/lgaticaq/bip/commit/fdacef457e3dcc0285a22d69ff52929a1559ff0d))
+  *  update dependency nock to v9.2.6 ([042b2575](https://github.com/lgaticaq/bip/commit/042b25750d4076b52bc0794355f0f180befd2690))
+  *  update dependency lint-staged to v7.1.0 ([e27a4af2](https://github.com/lgaticaq/bip/commit/e27a4af2d7f45514adc2b0533e44d2d9f1e94617))
+
+##### Bug Fixes
+
+* **parser:**  fix get negative balance ([4a18ebab](https://github.com/lgaticaq/bip/commit/4a18ebabf4075f1c2a6837d62ebc55a09228613e))
+
 #### 3.0.1 (2018-05-03)
 
 ##### Chores
